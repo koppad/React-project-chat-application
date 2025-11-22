@@ -24,7 +24,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
     with:
-        cache-dependency-path: admin/package-lock.json
+        cache-dependency-path: C:\Users\Admin\Nagaraj1\React-project-chat-application/package-lock.json
         node-version: 20
         cache: 'npm'
         run: 'npm ci'
